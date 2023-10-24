@@ -1,0 +1,29 @@
+class solution
+{
+public;
+int binary search(int n)
+{
+int s = 0;
+int e = n;
+long long int = s+(e-s)/2;
+long long int ans = -1;
+while(s<=e)
+{
+int square = mid*mid;
+if(square == n)
+{
+ans = mid;
+s = mid+1;
+}
+else
+{
+e = mid-1;
+}
+mid = s+(e-s)/2
+}
+return ans;
+}
+int mysqrt(int x)
+{
+return binary search(x);
+}
